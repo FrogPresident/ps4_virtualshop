@@ -13,10 +13,32 @@ import CoreData
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
+    var db: OpaquePointer? = nil
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        let fileName: String = "ps4.sqlite"
+        let fm = FileManager.default
+        let directory = fm.urls(for: .documentDirectory, in: .userDomainMask).first!
+        let documentUrl = directory.appendingPathComponent(fileName)
+        let bundleUrl = Bundle.main.resourceURL?.appendingPathComponent(fileName)
+        print(documentUrl.path)
+        print(bundleUrl!.path)
+        if fm.fileExists(atPath: (documentUrl.path)){
+            print("document file exist!")
+        }else{
+            print("document file does not exit ,copy frm bundle!")
+            try! fm.copyItem(at: bundleUrl!, to: documentUrl)
+        }
+        
+        if sqlite3_open(bundleUrl?.path, &db) == SQLITE_OK{
+            print("database is open")
+        }else{
+            print("database is not open")
+            db = nil
+        }
+        /*if sqlite3_open(src! , &db) == SQLITE_OK*/
         return true
     }
 

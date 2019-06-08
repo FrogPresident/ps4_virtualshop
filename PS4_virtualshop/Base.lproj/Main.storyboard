@@ -57,7 +57,7 @@
                         <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Yh6-vW-MFe">
                             <rect key="frame" x="105" y="0.0" width="262" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="Button" image="PS4-Logo-2.png"/>
+                            <state key="normal" title="Button" image="PS4-Logo-2"/>
                         </button>
                     </navigationItem>
                 </viewController>
@@ -179,7 +179,7 @@
     </scenes>
     <resources>
         <image name="7b9bc06627e83.png" width="1200" height="1200"/>
-        <image name="PS4-Logo-2.png" width="800" height="250"/>
+        <image name="PS4-Logo-2" width="800" height="250"/>
         <image name="f8aa228a71ed7d216738d385361d4210.png" width="2410" height="799"/>
     </resources>
 </document>
