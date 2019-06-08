@@ -13,7 +13,6 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PS4_virtualshop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -48,20 +47,21 @@
                     </view>
                     <navigationItem key="navigationItem" id="V0x-jO-nP0">
                         <nil key="title"/>
-                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="bWh-aC-EIe">
-                            <rect key="frame" x="8" y="0.0" width="262" height="44"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="ZLe-C4-ah4">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="53h-Pq-YZv">
+                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                            </button>
+                        </barButtonItem>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Yh6-vW-MFe">
+                            <rect key="frame" x="105" y="0.0" width="262" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <state key="normal" title="Button" image="PS4-Logo-2.png"/>
                         </button>
-                        <barButtonItem key="rightBarButtonItem" image="0756d518708aca7.jpg" style="plain" id="avE-q8-XIg">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="AIf-gQ-utL">
-                                <rect key="frame" x="276" y="7" width="83" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="願望清單"/>
-                            </button>
-                        </barButtonItem>
                     </navigationItem>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="456.80000000000001" y="92.203898050974516"/>
         </scene>
@@ -178,7 +178,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="0756d518708aca7.jpg" width="260" height="260"/>
         <image name="7b9bc06627e83.png" width="1200" height="1200"/>
         <image name="PS4-Logo-2.png" width="800" height="250"/>
         <image name="f8aa228a71ed7d216738d385361d4210.png" width="2410" height="799"/>
