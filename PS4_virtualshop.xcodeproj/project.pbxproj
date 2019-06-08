@@ -16,6 +16,7 @@
 		3F77BA5E22AA9E1200DEDC35 /* PS4-Logo-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F77BA5D22AA9E1100DEDC35 /* PS4-Logo-2.png */; };
 		3F77BA6422AAA20E00DEDC35 /* f8aa228a71ed7d216738d385361d4210.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F77BA6322AAA20E00DEDC35 /* f8aa228a71ed7d216738d385361d4210.png */; };
 		3F77BA6622AAA84200DEDC35 /* 7b9bc06627e83.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F77BA6522AAA84200DEDC35 /* 7b9bc06627e83.png */; };
+		3FA6C99622ABA26A004420EC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA6C99522ABA26A004420EC /* libsqlite3.tbd */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		3F77BA5D22AA9E1100DEDC35 /* PS4-Logo-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PS4-Logo-2.png"; sourceTree = "<group>"; };
 		3F77BA6322AAA20E00DEDC35 /* f8aa228a71ed7d216738d385361d4210.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f8aa228a71ed7d216738d385361d4210.png; sourceTree = "<group>"; };
 		3F77BA6522AAA84200DEDC35 /* 7b9bc06627e83.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7b9bc06627e83.png; sourceTree = "<group>"; };
+		3FA6C99522ABA26A004420EC /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		3FA6C99822ABA4FA004420EC /* BridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgeHeader.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FA6C99622ABA26A004420EC /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -48,6 +52,7 @@
 			children = (
 				3F77BA4222AA7C7800DEDC35 /* PS4_virtualshop */,
 				3F77BA4122AA7C7800DEDC35 /* Products */,
+				3FA6C99422ABA26A004420EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +67,7 @@
 		3F77BA4222AA7C7800DEDC35 /* PS4_virtualshop */ = {
 			isa = PBXGroup;
 			children = (
+				3FA6C99822ABA4FA004420EC /* BridgeHeader.h */,
 				3F77BA4322AA7C7800DEDC35 /* AppDelegate.swift */,
 				3F77BA4522AA7C7800DEDC35 /* ViewController.swift */,
 				3F77BA4722AA7C7800DEDC35 /* Main.storyboard */,
@@ -74,6 +80,14 @@
 				3F77BA6522AAA84200DEDC35 /* 7b9bc06627e83.png */,
 			);
 			path = PS4_virtualshop;
+			sourceTree = "<group>";
+		};
+		3FA6C99422ABA26A004420EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3FA6C99522ABA26A004420EC /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,6 +310,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PHS.PS4-virtualshop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = PS4_virtualshop/BridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -311,6 +326,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PHS.PS4-virtualshop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = PS4_virtualshop/BridgeHeader.h;
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
