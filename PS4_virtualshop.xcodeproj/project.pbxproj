@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3515496822ACF5DA00661544 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515496722ACF5DA00661544 /* SearchViewController.swift */; };
+		3515496A22ACF61300661544 /* ProductDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515496922ACF61300661544 /* ProductDetailController.swift */; };
+		3515496C22ACF63200661544 /* WishListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3515496B22ACF63200661544 /* WishListController.swift */; };
 		3F77BA4422AA7C7800DEDC35 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F77BA4322AA7C7800DEDC35 /* AppDelegate.swift */; };
 		3F77BA4622AA7C7800DEDC35 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F77BA4522AA7C7800DEDC35 /* ViewController.swift */; };
 		3F77BA4922AA7C7800DEDC35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F77BA4722AA7C7800DEDC35 /* Main.storyboard */; };
@@ -22,6 +25,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3515496722ACF5DA00661544 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3515496922ACF61300661544 /* ProductDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailController.swift; sourceTree = "<group>"; };
+		3515496B22ACF63200661544 /* WishListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WishListController.swift; sourceTree = "<group>"; };
 		3F77BA4022AA7C7800DEDC35 /* PS4_virtualshop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PS4_virtualshop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F77BA4322AA7C7800DEDC35 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3F77BA4522AA7C7800DEDC35 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -78,6 +84,9 @@
 				3F77BA4322AA7C7800DEDC35 /* AppDelegate.swift */,
 				3F77BA4522AA7C7800DEDC35 /* ViewController.swift */,
 				3F77BA4722AA7C7800DEDC35 /* Main.storyboard */,
+				3515496B22ACF63200661544 /* WishListController.swift */,
+				3515496922ACF61300661544 /* ProductDetailController.swift */,
+				3515496722ACF5DA00661544 /* SearchViewController.swift */,
 				3F77BA4D22AA7C7800DEDC35 /* Assets.xcassets */,
 				3F77BA4F22AA7C7800DEDC35 /* LaunchScreen.storyboard */,
 				3F77BA5222AA7C7800DEDC35 /* Info.plist */,
@@ -177,6 +186,9 @@
 			files = (
 				3F77BA4622AA7C7800DEDC35 /* ViewController.swift in Sources */,
 				3F77BA4C22AA7C7800DEDC35 /* PS4_virtualshop.xcdatamodeld in Sources */,
+				3515496C22ACF63200661544 /* WishListController.swift in Sources */,
+				3515496822ACF5DA00661544 /* SearchViewController.swift in Sources */,
+				3515496A22ACF61300661544 /* ProductDetailController.swift in Sources */,
 				3F77BA4422AA7C7800DEDC35 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

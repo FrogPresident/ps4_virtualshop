@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--poductList-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="PS4_virtualshop" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="poductList" title="poductList" id="BYZ-38-t0r" customClass="ViewController" customModule="PS4_virtualshop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -40,6 +40,16 @@
                                 <rect key="frame" x="43" y="192" width="289" height="447"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" id="kLE-Uk-KGP">
+                                        <rect key="frame" x="0.0" y="28" width="289" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="kLE-Uk-KGP" id="FmC-0A-cWS">
+                                            <rect key="frame" x="0.0" y="0.0" width="289" height="43.5"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </prototypes>
                             </tableView>
                         </subviews>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
@@ -65,10 +75,10 @@
             </objects>
             <point key="canvasLocation" x="456.80000000000001" y="92.203898050974516"/>
         </scene>
-        <!--View Controller-->
+        <!--productDetail-->
         <scene sceneID="tFR-JP-rBt">
             <objects>
-                <viewController id="pmY-I2-UOz" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="productDetail" title="productDetail" id="pmY-I2-UOz" customClass="ProductDetailController" customModule="PS4_virtualshop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="MEO-yf-Aun">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,10 +109,25 @@
             </objects>
             <point key="canvasLocation" x="456.80000000000001" y="747.9760119940031"/>
         </scene>
-        <!--View Controller-->
+        <!--wishList-->
+        <scene sceneID="GNG-LU-kEp">
+            <objects>
+                <viewController title="wishList" id="gEN-yA-1CJ" customClass="WishListController" customModule="PS4_virtualshop" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ouo-Fi-RoK">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="qzh-jr-e9c"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="hwa-JJ-UHh" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-266" y="748"/>
+        </scene>
+        <!--searchView-->
         <scene sceneID="AHY-R1-4J4">
             <objects>
-                <viewController id="7A2-gU-Ekl" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="searchView" title="searchView" id="7A2-gU-Ekl" customClass="SearchViewController" customModule="PS4_virtualshop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QuL-ys-9kE">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
