@@ -19,6 +19,8 @@
 		3FA6C99622ABA26A004420EC /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FA6C99522ABA26A004420EC /* libsqlite3.tbd */; };
 		3FA6C99A22ABB8DE004420EC /* assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6C99922ABB8DE004420EC /* assets.xcassets */; };
 		3FA6C99C22ABE4DD004420EC /* ps4.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6C99B22ABE4DD004420EC /* ps4.sqlite */; };
+		3FA6C99F22ABF9C0004420EC /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FA6C99E22ABF9C0004420EC /* SearchViewController.swift */; };
+		3FA6C9A122AC0B06004420EC /* 9b4572a14c017bcb0b21fb02deae7de3.png in Resources */ = {isa = PBXBuildFile; fileRef = 3FA6C9A022AC0B05004420EC /* 9b4572a14c017bcb0b21fb02deae7de3.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		3FA6C99922ABB8DE004420EC /* assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = assets.xcassets; sourceTree = "<group>"; };
 		3FA6C99B22ABE4DD004420EC /* ps4.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = ps4.sqlite; path = ../../Documents/ps4.sqlite; sourceTree = "<group>"; };
 		3FA6C99D22ABF2D1004420EC /* mydb.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; name = mydb.sqlite; path = ../../Downloads/mydb.sqlite; sourceTree = "<group>"; };
+		3FA6C99E22ABF9C0004420EC /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		3FA6C9A022AC0B05004420EC /* 9b4572a14c017bcb0b21fb02deae7de3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 9b4572a14c017bcb0b21fb02deae7de3.png; path = ../../../Downloads/9b4572a14c017bcb0b21fb02deae7de3.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,12 +82,14 @@
 				3F77BA4322AA7C7800DEDC35 /* AppDelegate.swift */,
 				3F77BA4522AA7C7800DEDC35 /* ViewController.swift */,
 				3F77BA4722AA7C7800DEDC35 /* Main.storyboard */,
+				3FA6C99E22ABF9C0004420EC /* SearchViewController.swift */,
 				3F77BA4D22AA7C7800DEDC35 /* Assets.xcassets */,
 				3F77BA4F22AA7C7800DEDC35 /* LaunchScreen.storyboard */,
 				3F77BA5222AA7C7800DEDC35 /* Info.plist */,
 				3F77BA5D22AA9E1100DEDC35 /* PS4-Logo-2.png */,
 				3F77BA6322AAA20E00DEDC35 /* f8aa228a71ed7d216738d385361d4210.png */,
 				3F77BA4A22AA7C7800DEDC35 /* PS4_virtualshop.xcdatamodeld */,
+				3FA6C9A022AC0B05004420EC /* 9b4572a14c017bcb0b21fb02deae7de3.png */,
 				3F77BA6522AAA84200DEDC35 /* 7b9bc06627e83.png */,
 			);
 			path = PS4_virtualshop;
@@ -165,6 +171,7 @@
 				3F77BA4E22AA7C7800DEDC35 /* Assets.xcassets in Resources */,
 				3FA6C99A22ABB8DE004420EC /* assets.xcassets in Resources */,
 				3F77BA4922AA7C7800DEDC35 /* Main.storyboard in Resources */,
+				3FA6C9A122AC0B06004420EC /* 9b4572a14c017bcb0b21fb02deae7de3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +184,7 @@
 			files = (
 				3F77BA4622AA7C7800DEDC35 /* ViewController.swift in Sources */,
 				3F77BA4C22AA7C7800DEDC35 /* PS4_virtualshop.xcdatamodeld in Sources */,
+				3FA6C99F22ABF9C0004420EC /* SearchViewController.swift in Sources */,
 				3F77BA4422AA7C7800DEDC35 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

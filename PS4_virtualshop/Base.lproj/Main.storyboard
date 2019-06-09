@@ -47,17 +47,17 @@
                     </view>
                     <navigationItem key="navigationItem" id="V0x-jO-nP0">
                         <nil key="title"/>
-                        <barButtonItem key="leftBarButtonItem" style="plain" id="ZLe-C4-ah4">
-                            <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="53h-Pq-YZv">
-                                <rect key="frame" x="16" y="7" width="83" height="30"/>
+                        <barButtonItem key="leftBarButtonItem" style="plain" id="e1A-R9-0tj">
+                            <button key="customView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="b4u-pT-yHe">
+                                <rect key="frame" x="16" y="0.0" width="44" height="44"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="Button"/>
+                                <state key="normal" image="9b4572a14c017bcb0b21fb02deae7de3"/>
                             </button>
                         </barButtonItem>
-                        <button key="titleView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="Yh6-vW-MFe">
-                            <rect key="frame" x="105" y="0.0" width="262" height="44"/>
+                        <button key="titleView" opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="83X-jy-xrF">
+                            <rect key="frame" x="80" y="0.0" width="200" height="44"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <state key="normal" title="Button" image="PS4-Logo-2"/>
+                            <state key="normal" image="PS4-Logo-2.png"/>
                         </button>
                     </navigationItem>
                 </viewController>
@@ -179,7 +179,8 @@
     </scenes>
     <resources>
         <image name="7b9bc06627e83.png" width="1200" height="1200"/>
-        <image name="PS4-Logo-2" width="800" height="250"/>
+        <image name="9b4572a14c017bcb0b21fb02deae7de3" width="59" height="59"/>
+        <image name="PS4-Logo-2.png" width="800" height="250"/>
         <image name="f8aa228a71ed7d216738d385361d4210.png" width="2410" height="799"/>
     </resources>
 </document>

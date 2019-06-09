@@ -38,8 +38,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             print("database is not open")
             db = nil
         }
-        /*if sqlite3_open(src! , &db) == SQLITE_OK*/
         return true
+        
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -63,7 +63,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(_ application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
         // Saves changes in the application's managed object context before the application terminates.
-        self.saveContext()
+        guard db != nil else{
+            return
+        }
+        sqlite3_close(db!)
     }
 
     // MARK: - Core Data stack
