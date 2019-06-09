@@ -16,6 +16,7 @@
 		3F77BA5E22AA9E1200DEDC35 /* PS4-Logo-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F77BA5D22AA9E1100DEDC35 /* PS4-Logo-2.png */; };
 		3F77BA6422AAA20E00DEDC35 /* f8aa228a71ed7d216738d385361d4210.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F77BA6322AAA20E00DEDC35 /* f8aa228a71ed7d216738d385361d4210.png */; };
 		3F77BA6622AAA84200DEDC35 /* 7b9bc06627e83.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F77BA6522AAA84200DEDC35 /* 7b9bc06627e83.png */; };
+		720A192C22ACEF4E008F1EFB /* MFViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 720A192B22ACEF4E008F1EFB /* MFViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,8 @@
 		3F77BA5D22AA9E1100DEDC35 /* PS4-Logo-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "PS4-Logo-2.png"; sourceTree = "<group>"; };
 		3F77BA6322AAA20E00DEDC35 /* f8aa228a71ed7d216738d385361d4210.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = f8aa228a71ed7d216738d385361d4210.png; sourceTree = "<group>"; };
 		3F77BA6522AAA84200DEDC35 /* 7b9bc06627e83.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7b9bc06627e83.png; sourceTree = "<group>"; };
+		720A192722ACEF20008F1EFB /* PS4_virtualshop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PS4_virtualshop-Bridging-Header.h"; sourceTree = "<group>"; };
+		720A192B22ACEF4E008F1EFB /* MFViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MFViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,11 +70,13 @@
 				3F77BA4722AA7C7800DEDC35 /* Main.storyboard */,
 				3F77BA4D22AA7C7800DEDC35 /* Assets.xcassets */,
 				3F77BA4F22AA7C7800DEDC35 /* LaunchScreen.storyboard */,
+				720A192B22ACEF4E008F1EFB /* MFViewController.swift */,
 				3F77BA5222AA7C7800DEDC35 /* Info.plist */,
 				3F77BA5D22AA9E1100DEDC35 /* PS4-Logo-2.png */,
 				3F77BA6322AAA20E00DEDC35 /* f8aa228a71ed7d216738d385361d4210.png */,
 				3F77BA4A22AA7C7800DEDC35 /* PS4_virtualshop.xcdatamodeld */,
 				3F77BA6522AAA84200DEDC35 /* 7b9bc06627e83.png */,
+				720A192722ACEF20008F1EFB /* PS4_virtualshop-Bridging-Header.h */,
 			);
 			path = PS4_virtualshop;
 			sourceTree = "<group>";
@@ -108,6 +113,7 @@
 				TargetAttributes = {
 					3F77BA3F22AA7C7700DEDC35 = {
 						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -154,6 +160,7 @@
 				3F77BA4622AA7C7800DEDC35 /* ViewController.swift in Sources */,
 				3F77BA4C22AA7C7800DEDC35 /* PS4_virtualshop.xcdatamodeld in Sources */,
 				3F77BA4422AA7C7800DEDC35 /* AppDelegate.swift in Sources */,
+				720A192C22ACEF4E008F1EFB /* MFViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -290,12 +297,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PS4_virtualshop/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PHS.PS4-virtualshop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PS4_virtualshop/PS4_virtualshop-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -305,12 +315,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = PS4_virtualshop/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "PHS.PS4-virtualshop";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PS4_virtualshop/PS4_virtualshop-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
